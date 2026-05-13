@@ -595,6 +595,57 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+{/* EVA NETWORK */}
+<section className="border-t border-gray-900 px-6 py-24 md:py-32">
+  <div className="mx-auto max-w-4xl text-center">
+    <p className="mb-5 text-xs uppercase tracking-[0.45em] text-cyan-400">
+      EVA Network
+    </p>
+
+    <h2 className="mb-8 text-4xl font-bold md:text-6xl">
+      Follow the Transmission
+    </h2>
+
+    <p className="mx-auto mb-16 max-w-2xl text-lg leading-relaxed text-gray-400">
+      Receive new transmissions, development updates and fragments from the
+      EVA system.
+    </p>
+
+    <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
+      {/* INSTAGRAM */}
+      <a
+        href="https://www.instagram.com/age_infinity_games/"
+        target="_blank"
+        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-pink-400/30 hover:bg-pink-400/[0.03]"
+      >
+        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+          Instagram
+        </span>
+
+        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-pink-300">
+          →
+        </span>
+      </a>
+
+      {/* YOUTUBE */}
+      <a
+        href="https://www.youtube.com/@A.G.E.InfinityGames"
+        target="_blank"
+        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-red-400/30 hover:bg-red-400/[0.03]"
+      >
+        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+          YouTube
+        </span>
+
+        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-red-300">
+          →
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
       </footer>
     </main>
   );
