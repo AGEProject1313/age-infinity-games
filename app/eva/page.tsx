@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import EvaConnection from "./components/EvaConnection";
-import CursorGlow from "./components/CursorGlow";
-import TrailerSection from "./components/TrailerSection";
+import EvaConnection from "../components/EvaConnection";
+import CursorGlow from "../components/CursorGlow";
+import TrailerSection from "../components/TrailerSection";
 export default function Home() {
   const audioRef = useRef<HTMLAudioElement>(null);
 
