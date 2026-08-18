@@ -152,7 +152,7 @@ export default function Home() {
           {/* CTA BUTTONS */}
           <div className="flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://store.steampowered.com/"
+              href="https://store.steampowered.com/app/4955740/EVA_Awakening_Demo/"
               target="_blank"
               className="w-[260px] border border-white/20 bg-white/5 px-8 py-4 text-center transition duration-300 hover:border-white/50 hover:bg-white/10"
             >
@@ -162,7 +162,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.meta.com/experiences/"
+              href="https://www.meta.com/it-it/experiences/eva-awakening-demo/1132600809944470/"
               target="_blank"
               className="w-[260px] border border-cyan-400/20 bg-cyan-400/5 px-8 py-4 text-center transition duration-300 hover:border-cyan-400/50 hover:bg-cyan-400/10"
             >
@@ -394,6 +394,14 @@ export default function Home() {
               {playing ? "Pause Main Theme" : "Listen to Main Theme"}
             </span>
           </button>
+          <a
+  href="https://distrokid.com/hyperfollow/ageinfinitygamesgabrieleboschi/eva-awakening-original-soundtrack"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mx-auto mt-4 block w-fit border border-white/20 bg-white/[0.02] px-10 py-4 text-sm uppercase tracking-[0.2em] text-gray-300 transition duration-300 hover:border-cyan-300 hover:bg-cyan-400/10 hover:text-white"
+>
+  Listen to Full Soundtrack
+</a>
 
           <p className="mt-10 text-sm tracking-[0.2em] text-gray-500">
             Original soundtrack composed by Gabriele Boschi
@@ -427,7 +435,7 @@ export default function Home() {
     <div className="grid gap-8 lg:grid-cols-2">
       {/* STEAM */}
       <motion.a
-        href="https://store.steampowered.com/"
+        href="https://store.steampowered.com/app/4955740/EVA_Awakening_Demo/"
         target="_blank"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -468,7 +476,7 @@ export default function Home() {
 
       {/* META */}
       <motion.a
-        href="https://www.meta.com/experiences/"
+        href="https://www.meta.com/it-it/experiences/eva-awakening-demo/1132600809944470/"
         target="_blank"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -509,6 +517,85 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section className="border-t border-gray-900 px-6 py-24 md:py-32">
+  <div className="mx-auto max-w-4xl text-center">
+    <p className="mb-5 text-xs uppercase tracking-[0.45em] text-cyan-400">
+      EVA Network
+    </p>
+
+    <h2 className="mb-8 text-4xl font-bold md:text-6xl">
+      Follow the Transmission
+    </h2>
+
+    <p className="mx-auto mb-16 max-w-2xl text-lg leading-relaxed text-gray-400">
+      Receive new transmissions, development updates and fragments from the
+      EVA system.
+    </p>
+
+    <div className="flex flex-wrap items-center justify-center gap-6">
+      {/* INSTAGRAM */}
+      <a
+        href="https://www.instagram.com/age_infinity_games/"
+        target="_blank"
+        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-pink-400/30 hover:bg-pink-400/[0.03]"
+      >
+        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+          Instagram
+        </span>
+
+        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-pink-300">
+          →
+        </span>
+      </a>
+
+      {/* YOUTUBE */}
+      <a
+        href="https://www.youtube.com/@A.G.E.InfinityGames"
+        target="_blank"
+        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-red-400/30 hover:bg-red-400/[0.03]"
+      >
+        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+          YouTube
+        </span>
+
+        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-red-300">
+          →
+        </span>
+      </a>
+      {/* LINKEDIN */}
+<a
+  href="https://www.linkedin.com/company/130664021/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-blue-400/30 hover:bg-blue-400/[0.03]"
+>
+  <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+    LinkedIn
+  </span>
+
+  <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-blue-300">
+    →
+  </span>
+</a>
+{/* DISCORD */}
+<a
+  href="https://discord.gg/bqTht2a2F"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-indigo-400/30 hover:bg-indigo-400/[0.03]"
+>
+  <span className="text-sm uppercase tracking-[0.25em] text-white/90">
+    Discord
+  </span>
+
+  <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-indigo-300">
+    →
+  </span>
+</a>
+    </div>
+  </div>
+</section>
+
 {/* LORE FRAGMENTS */}
 <section className="border-t border-gray-900 px-6 py-24 md:py-32">
   <div className="mx-auto max-w-4xl text-center">
@@ -569,7 +656,7 @@ export default function Home() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-400">
             <a
-              href="https://discord.com"
+              href="https://discord.gg/bqTht2a2F"
               target="_blank"
               className="transition hover:text-white"
             >
@@ -597,54 +684,7 @@ export default function Home() {
         </div>
 
 {/* EVA NETWORK */}
-<section className="border-t border-gray-900 px-6 py-24 md:py-32">
-  <div className="mx-auto max-w-4xl text-center">
-    <p className="mb-5 text-xs uppercase tracking-[0.45em] text-cyan-400">
-      EVA Network
-    </p>
 
-    <h2 className="mb-8 text-4xl font-bold md:text-6xl">
-      Follow the Transmission
-    </h2>
-
-    <p className="mx-auto mb-16 max-w-2xl text-lg leading-relaxed text-gray-400">
-      Receive new transmissions, development updates and fragments from the
-      EVA system.
-    </p>
-
-    <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
-      {/* INSTAGRAM */}
-      <a
-        href="https://www.instagram.com/age_infinity_games/"
-        target="_blank"
-        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-pink-400/30 hover:bg-pink-400/[0.03]"
-      >
-        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
-          Instagram
-        </span>
-
-        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-pink-300">
-          →
-        </span>
-      </a>
-
-      {/* YOUTUBE */}
-      <a
-        href="https://www.youtube.com/@A.G.E.InfinityGames"
-        target="_blank"
-        className="group flex w-[260px] items-center justify-between border border-white/10 bg-white/[0.02] px-8 py-5 transition duration-500 hover:border-red-400/30 hover:bg-red-400/[0.03]"
-      >
-        <span className="text-sm uppercase tracking-[0.25em] text-white/90">
-          YouTube
-        </span>
-
-        <span className="text-white/40 transition duration-300 group-hover:translate-x-2 group-hover:text-red-300">
-          →
-        </span>
-      </a>
-    </div>
-  </div>
-</section>
 
       </footer>
     </main>
